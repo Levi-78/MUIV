@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обо мне</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="interests.html">Мои интересы</a>
+    <a href="auth.html">Вход / Регистрация</a>
+    <a href="#video">Видео</a>
+  </nav>
+</header>
+
+  <main>
+    <section class="hero">
+      <figure class="hero-photo">
+        <img src="images/photo.jpg" alt="Фото автора сайта">
+        <figcaption>Начинающий веб-разработчик</figcaption>
+      </figure>
+      <div class="hero-text">
+        <h1>Levi</h1>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>Обо мне</h2>
+      <article>
+        <p>Живу в Москве, обучаюсь на <strong>2 курсе</strong> <em> разработки веб и мультимедийных приложений.</em></p>
+      </article>
+      <aside>
+        <p>P.S. <span>Изначально собиралась поступать в медицинский</span></p>
+      </aside>
+    </section>
+
+    <section class="container">
+  <h2>Интересы и цели</h2>
+  <div class="lists">
+    <ul>
+      <li><img src="images/int1.png" alt="1" class="icon"> Программирование</li>
+      <li><img src="images/int2.png" alt="2" class="icon"> Музыка</li>
+      <li><img src="images/int3.jpg" alt="3" class="icon"> Спорт</li>
+    </ul>
+    <ol>
+      <li>Выучить языки програмирования</li>
+      <li>Создать свой игровой сервер</li>
+      <li>Найти работу</li>
+    </ol>
+  </div>
+</section>
+
+    <section id="skills">
+      <h2>Навыки</h2>
+      <table>
+        <thead>
+          <tr><th>Навык</th><th>Уровень</th><th>Опыт</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>HTML</td><td>Базовый</td><td>3 мес</td></tr>
+          <tr><td>CSS</td><td>Начальный</td><td>3 нед</td></tr>
+          <tr><td>Python</td><td>Базовый/Средний</td><td>6 мес</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="3">Дальше — больше</td></tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section class="playlist">
+      <h2>Мой плейлист</h2>
+      <div class="playlist-head">
+        <img src="images/cover.jpg" alt="Обложка плейлиста" class="playlist-cover">
+        <p>Мой топ-3</p>
+      </div>
+
+      <div class="track">
+        <p>Aviators - Glow </p>
+        <audio src="audio/track1.mp3" controls></audio>
+      </div>
+      <div class="track">
+        <p>Fall Out Boy - Light Em Up (Loop)</p>
+        <audio src="audio/track2.mp3" controls loop></audio>
+      </div>
+      <div class="track">
+        <p>NBSPLV - Alongside (Mute)</p>
+        <audio src="audio/track3.mp3" controls muted></audio>
+      </div>
+    </section>
+
+    <section class="video-section" id="video">
+  <h2>Видео о моём увлечении</h2>
+  <p>Короткий ролик о том, чем я занимаюсь в свободное время.</p>
+
+  <video controls width="100%" poster="images/preview.jpg" preload="metadata">
+    <source src="video/clip.mp4" type="video/mp4">
+    <track kind="captions" src="video/clip-ru.vtt" srclang="ru" label="Русские субтитры" default>
+    <p>
+      Ваш браузер не поддерживает встроенный видеопроигрыватель.
+      <a href="video/clip.mp4" download>Скачать видеофайл</a>.
+    </p>
+  </video>
+</section>
+
+    <section class="favorite-sites">
+      <h2>Любимые сайты </h2>
+      <ol>
+        <li><a href="https://youtube.com">YouTube</a></li>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="https://wikipedia.org">Wikipedia</a></li>
+        <li><a href="https://reddit.com">Reddit</a></li>
+        <li><a href="https://spotify.com">Spotify</a></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Levi</p>
+  </footer>
+
+</body>
+</html>
